@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>File uploading</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/post_data" method="post" enctype="multipart/form-data">
+            <input type="file" name="u_file">
+            <button type="submit">Upload</button>
+        </form>
+    </body>
+</html>
