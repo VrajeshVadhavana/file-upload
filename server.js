@@ -24,7 +24,7 @@ app.post("/post_data",(req,res)=>{
                 }
                 else{
                     console.log("file uploaded successfully");
-                    res.render("index")
+                    //res.render("index")
                 }
             })
         }
